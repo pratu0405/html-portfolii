@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1hb6UccxFliUpqcyz2nHj2+wv+OsxI9Fr+Tk7w" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="login-section">
+            <div class="login-content">
+                <img src="images/expense-tracker-logo.png" alt="Expense Tracker Logo" class="logo">
+                <h1>Welcome to Expense Tracker</h1>
+                <p>Your personal budget management tool.</p>
+                <form id="login-form">
+                    <input type="email" id="email" placeholder="Email" >
+                    <input type="password" id="password" placeholder="Password" >
+                    <a href="expese.html" onclick="alert('successfully login !')">
+                        submit
+                    </a>
+                    
+                </form>     
+                <a href="expese.html" class="forgot-password" onclick="alert('send on email !')">Forgot Password?</a>
+            </div>
+        </div>
+    </div>    
+    <script src="scripts.js"></script>
+</body>
+</html>
